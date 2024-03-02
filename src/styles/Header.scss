@@ -1,0 +1,29 @@
+@use "./assets.scss";
+
+header {
+  @include assets.flexBox-row;
+  margin: 40px 100px;
+
+  * {
+    font-weight: assets.$bold;
+  }
+
+  a {
+    margin: 0 10px;
+    color: assets.$Grayish-Violet;
+    &:hover {
+      color: assets.$Very-Dark-Violet;
+    }
+  }
+  nav {
+    margin: 0 0.5rem 0 3rem;
+  }
+
+  div {
+    margin-left: auto;
+    margin-top: -5px;
+    .customButton {
+      margin: 0 10px;
+    }
+  }
+}

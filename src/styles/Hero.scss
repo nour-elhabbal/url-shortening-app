@@ -1,0 +1,28 @@
+@use "./assets.scss";
+
+.hero {
+  @include assets.flexBox-row;
+  align-items: center;
+
+  margin: 50px 50px 50px 100px;
+
+  div {
+    width: 40%;
+    min-width: 445px;
+
+    h1 {
+      font-size: 60px;
+      color: assets.$Very-Dark-Violet;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: assets.$Grayish-Violet;
+    }
+  }
+
+  img {
+    width: 50%;
+    margin-left: auto;
+  }
+}
