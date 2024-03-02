@@ -1,7 +1,8 @@
+import "../styles/CustomButton.scss";
+
 const CustomButton = ({
   isRounded,
   isWide,
-  isTransparent,
   onClick,
   content,
   customId,
@@ -12,7 +13,7 @@ const CustomButton = ({
       id={customId}
       className={`customButton ${additionalClass} ${
         isRounded ? "rounded" : ""
-      } ${isWide ? "wide" : ""} ${isTransparent ? "transparent" : ""}
+      } ${isWide ? "wide" : ""} 
       `}
       onClick={onClick}
     >
