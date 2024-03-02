@@ -1,6 +1,7 @@
 // Colors
 // ## Primary
 $Cyan: hsl(180, 66%, 49%);
+$Light-Cyan: hsl(180, 77%, 62%);
 $Dark-Violet: hsl(257, 27%, 26%);
 
 // ### Secondary
@@ -14,7 +15,7 @@ $Very-Dark-Violet: hsl(260, 8%, 14%);
 
 // Typography
 $normal: 500;
-$bold: 500;
+$bold: 700;
 
 // Mixins
 @mixin flexBox-row {
@@ -27,7 +28,7 @@ $bold: 500;
   flex-direction: column;
 }
 
-@mixin flexBox-center {
+@mixin flex-center {
   justify-content: center;
   align-items: center;
 }
