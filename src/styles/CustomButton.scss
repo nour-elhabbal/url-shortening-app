@@ -1,0 +1,26 @@
+@use "./assets.scss";
+
+.customButton {
+  font-weight: assets.$bold;
+  border: unset;
+  border-radius: 5px;
+  background-color: assets.$Cyan;
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  color: white;
+
+  &:hover {
+    background-color: assets.$Light-Cyan;
+  }
+}
+
+.wide {
+  font-size: 16px;
+  padding: 10px 35px !important;
+}
+
+.rounded {
+  border-radius: 25px;
+}
